@@ -1,0 +1,56 @@
+*:focus {
+    outline: none;
+}
+.button {
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background: rgba(154, 153, 153, 0.47);
+    text-decoration: none;
+    border-bottom: 2px solid darkgray;
+    padding: 7px;
+    color: #656565;
+    font: .8em BlinkMacSystemFont;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.button:hover {
+    background: #B0B1B9;
+    color: #F1EBEB;
+    border-bottom: 2px solid #828181;
+}
+
+.button:active {
+    /*background: #5C5C9C;*/
+    background: rgba(92, 92, 156, 0.66);
+    color: #F1EBEB;
+    /*border-bottom: 3px solid #050F48;*/
+    border-bottom: none;
+    position: relative;
+    top: 2px;
+    margin-bottom: 2px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button.button-sm {
+    padding: 0.5em 1em;
+    font-size: .4em;
+}
+
+.button-md {
+    /*going to keep this the same size as the other buttons*/
+}
+
+.button-lg {
+    font-size: 1.1em;
+    padding: 0.4em .7em;
+}
+
