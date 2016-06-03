@@ -41,16 +41,17 @@
 }
 
 .button.button-sm {
-    padding: 0.5em 1em;
-    font-size: .4em;
+    padding: 0.6em 1em;
+    font-size: .7em;
 }
 
 .button-md {
-    /*going to keep this the same size as the other buttons*/
+    padding: 0.9em 1em;
+    font-size: .9em;
 }
 
 .button-lg {
     font-size: 1.1em;
-    padding: 0.4em .7em;
+    padding: .9em 1.15em;
 }
 
